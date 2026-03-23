@@ -1,0 +1,10 @@
+.controller.custom {
+  background: url("https://i.imgur.com/oTSEuW6.png") no-repeat center;
+  background-size: contain;
+}
+
+.controller.custom .button,
+.controller.custom .stick,
+.controller.custom .trigger {
+  opacity: 0;
+}
