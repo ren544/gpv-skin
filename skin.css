@@ -1,10 +1,10 @@
-.controller.custom {
+.controller.ds4 {
   background: url("https://i.imgur.com/oTSEuW6.png") no-repeat center;
   background-size: contain;
 }
 
-.controller.custom .button,
-.controller.custom .stick,
-.controller.custom .trigger {
+.controller.ds4 .button,
+.controller.ds4 .stick,
+.controller.ds4 .trigger {
   opacity: 0;
 }
