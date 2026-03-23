@@ -1,8 +1,11 @@
-.controller.ds4 {
+.controller,
+.controller.ds4,
+.controller.gamepad {
+  position: relative;
   background: none !important;
 }
 
-.controller.ds4::before {
+.controller::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -12,7 +15,7 @@
   z-index: 999;
 }
 
-/* Ocultar todo lo original */
-.controller.ds4 * {
+/* Ocultar TODO */
+.controller * {
   opacity: 0 !important;
 }
