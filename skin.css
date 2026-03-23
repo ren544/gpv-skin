@@ -1,10 +1,15 @@
 .controller.ds4 {
-  background: url("https://i.imgur.com/oTSEuW6.png") no-repeat center;
-  background-size: contain;
+  background-image: url("https://i.imgur.com/oTSEuW6.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
 }
 
+/* Ocultar todo lo original */
 .controller.ds4 .button,
 .controller.ds4 .stick,
-.controller.ds4 .trigger {
-  opacity: 0;
+.controller.ds4 .trigger,
+.controller.ds4 .face,
+.controller.ds4 .dpad {
+  opacity: 0 !important;
 }
